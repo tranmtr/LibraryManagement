@@ -1,4 +1,4 @@
-package uet.librarymanagementsystem.controllers;
+package uet.librarymanagementsystem.controllers.student;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
@@ -10,7 +10,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
-import org.w3c.dom.ls.LSOutput;
 import uet.librarymanagementsystem.entity.Document;
 
 import java.net.URL;

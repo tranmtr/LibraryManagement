@@ -7,6 +7,7 @@ module uet.librarymanagementsystem {
     requires java.desktop;
 
     opens uet.librarymanagementsystem.controllers to javafx.fxml;
-
     exports uet.librarymanagementsystem;
+    opens uet.librarymanagementsystem.controllers.admin to javafx.fxml;
+    opens uet.librarymanagementsystem.controllers.student to javafx.fxml;
 }
